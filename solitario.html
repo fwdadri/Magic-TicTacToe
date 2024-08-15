@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game: Tic Tac Toe</title>
+  <link rel="stylesheet" href="principal.css">
+</head> 
+<body id="body">
+  <img id="hamster" src="./imgs/hantaro.gif">
+
+  <h1 id="titulo">✨Magic Tic Tac toe✨</h1>
+
+  <p id="parrafo">jugador✨ vs computadora💖</p>
+
+  <button id="btnstart">Start <br>💖</button>
+
+  <h3 class="msj" id="mensaje">Empienza ⭐ </h3>
+
+ <div class="conteo">
+  <p id="puntosV">Puntos de estrella✨0</p>
+  <p id="puntosD">Puntos de corazon💖0</p>
+ </div> 
+
+  <div class="contenedor2">
+
+    <div class="contenedor">
+      <div class="caja" fila="0" columna="0" id="cuadrito1"></div>
+      <div class="caja" fila="0" columna="1" id="cuadrito2"></div>
+      <div class="caja" fila="0" columna="2" id="cuadrito3"></div>
+
+      <div class="caja" fila="1" columna="0" id="cuadrito4"></div>
+      <div class="caja" fila="1" columna="1" id="cuadrito5"></div>
+      <div class="caja" fila="1" columna="2" id="cuadrito6"></div>
+
+      <div class="caja" fila="2" columna="0" id="cuadrito7"></div>
+      <div class="caja" fila="2" columna="1" id="cuadrito8"></div>
+      <div class="caja" fila="2" columna="2" id="cuadrito9"></div>
+    </div>
+
+  </div>  
+<div class="btn">
+  <a href="principal.html"><button onclick="alone" id="alone"> Modo Compañia</button></a>
+  <button id="start">Volver a jugar</button>
+  <button id="start" class="score">Volver a comenzar</button>
+</div>
+<br>
+
+  <script src="./solitario.js"></script>
+
+
+</body>
+
+</html>
